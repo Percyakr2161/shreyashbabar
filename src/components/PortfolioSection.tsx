@@ -164,24 +164,6 @@ const PortfolioSection = () => {
                   </div>
                 </div>
 
-                <div className="flex space-x-3 pt-4 border-t border-border">
-                  <Button
-                    size="sm"
-                    variant="outline"
-                    className="flex-1 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  >
-                    <ExternalLink className="mr-2 h-3 w-3" />
-                    Live Demo
-                  </Button>
-                  <Button
-                    size="sm"
-                    variant="outline"
-                    className="flex-1 border-accent text-accent hover:bg-accent hover:text-accent-foreground"
-                  >
-                    <Github className="mr-2 h-3 w-3" />
-                    Code
-                  </Button>
-                </div>
               </div>
             </Card>
           ))}
